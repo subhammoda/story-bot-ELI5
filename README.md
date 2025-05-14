@@ -46,7 +46,7 @@ flowchart TD
     UserInput --> Researcher
     Researcher --> Simplifier
     Simplifier --> Storywriter
-    Storyteller --> Educator
+    Storywriter --> Educator
     Educator --> StreamlitUI
 ```
 
