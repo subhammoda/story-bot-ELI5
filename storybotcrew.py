@@ -20,9 +20,9 @@ class StoryBotCrew():
 
         result = crew.kickoff(inputs={"topic": self.topic})
 
-        print(result)
+        return result
 
 if __name__ == "__main__":
     topic = input("Enter a topic you would like a story about: ")
     sbc = StoryBotCrew(topic)
-    sbc.run_crew()
+    print(sbc.run_crew())
