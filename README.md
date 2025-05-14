@@ -4,7 +4,7 @@ Ever wanted to understand complex topics in a way even a child can grasp? This p
 
 ## 🚀 Live Demo
 
-👉 [Launch the App on Streamlit](#) *(Insert your Streamlit Cloud link here)*
+👉 [Launch the App on Streamlit](#)
 
 ---
 
