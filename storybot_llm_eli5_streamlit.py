@@ -1,6 +1,11 @@
 import streamlit as st
 from storybotcrew import StoryBotCrew
 
+# In order to use the latest version to be able to deploy the app
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 st.set_page_config(page_title="Story Bot LLM - ELI5", page_icon="📚", layout="centered")
 
 st.title("Story Bot LLM - Explain Like I'm 5")
@@ -14,8 +19,7 @@ if st.button("Generate Story"):
     else:
         with st.spinner("The agents are researching, simplifying, and storytelling..."):
             try:
-                # Set topic as input if needed (depends on how your agents/tasks are designed)
-                
+                # call crew class to initiate the agents with user defined topic
                 sbc = StoryBotCrew(topic)
                 story = sbc.run_crew()
                 
