@@ -1,4 +1,9 @@
-python-dotenv
-crewai
-crewai-tools
-streamlit
+python-dotenv==1.0.0
+crewai==0.28.0
+crewai-tools==0.8.0
+streamlit==1.29.0
+sqlalchemy==1.4.53
+langchain==0.1.0
+langchain-google-genai==0.0.6
+google-generativeai==0.3.2
+pydantic==1.10.13
