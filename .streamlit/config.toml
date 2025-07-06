@@ -1,0 +1,19 @@
+[server]
+maxUploadSize = 200
+enableXsrfProtection = false
+enableCORS = false
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+# Warm, cozy theme for children's stories
+primaryColor = "#FF8C42"  # Warm orange
+backgroundColor = "#FFF8F0"  # Warm cream
+secondaryBackgroundColor = "#FFFFFF"  # Pure white
+textColor = "#2D3748"  # Dark charcoal
+font = "sans serif"
+
+# Custom CSS for enhanced styling
+[client]
+showErrorDetails = false 
